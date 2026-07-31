@@ -19,5 +19,6 @@ public class CheckPalindromeNumber {
             System.out.println(original+" is a Palindrome Number");
         else
             System.out.println(original+" is not a Palindrome Number");
+        sc.close();
     }
 }
