@@ -2,10 +2,10 @@
 ----------
 n=5
 E 
-D E 
-C D E 
-B C D E 
-A B C D E
+DE 
+CDE 
+BCDE 
+ABCDE
 ----------
 */
 
