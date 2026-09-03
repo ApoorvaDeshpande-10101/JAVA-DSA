@@ -14,7 +14,7 @@ public class DequeBasics {
         System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
 
-        System.out.println("Enter " + n + " elements:");
+        System.out.println("Enter " + n + " elements: ");
 
         for (int i = 0; i < n; i++) {
             deque.offerLast(sc.nextInt());
