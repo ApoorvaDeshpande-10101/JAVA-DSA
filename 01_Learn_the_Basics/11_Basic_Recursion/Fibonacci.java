@@ -1,15 +1,23 @@
+import java.util.Scanner;
+
 public class Fibonacci {
     public static void main(String[] args) {
-        System.out.println(fibo(7));
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter n: ");
+        int n = sc.nextInt();
+
+        System.out.println("Fibonacci number: " + fibo(n));
+
+        sc.close();
     }
 
-    static int fibo(int n){
-        // base condition
-        if(n<2){
+    static int fibo(int n) {
+        // Base condition
+        if (n < 2) {
             return n;
         }
 
-        return fibo(n-1) + fibo(n-2); 
+        return fibo(n - 1) + fibo(n - 2);
     }
 }
- 
